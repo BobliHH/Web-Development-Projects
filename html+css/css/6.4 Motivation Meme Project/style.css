@@ -3,7 +3,10 @@ h1 {
   /* background-color: black;
   color: white; */
   text-transform: uppercase;
-  
+  text-align: center;
+}
+p {
+  text-align: center;
 }
 img {
   width: 100%;
@@ -12,12 +15,12 @@ img {
 div {
   width: 50%;
   margin-left: 25%;
-  background-color: black;
-  color: white;
-  text-align: center;
+  /* background-color: black;
+  color: white; */
 }
 * {
   margin: 0;
-  /* background-color: black;
-  color: white; */
+
+  background-color: black;
+  color: white;
 }
