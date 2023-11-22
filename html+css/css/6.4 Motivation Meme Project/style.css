@@ -3,8 +3,10 @@ h1 {
   /* background-color: black;
   color: white; */
   text-transform: uppercase;
+  
 }
 img {
+  width: 100%;
   border: 5px solid white;
 }
 div {
@@ -18,5 +20,4 @@ div {
   margin: 0;
   /* background-color: black;
   color: white; */
-  
 }
