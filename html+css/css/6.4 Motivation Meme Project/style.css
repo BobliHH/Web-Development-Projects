@@ -4,11 +4,14 @@ h1 {
   color: white; */
   text-transform: uppercase;
   text-align: center;
+  padding: 1rem;
 }
 p {
   text-align: center;
+  padding: 1rem;
 }
 img {
+  margin-top: 3rem;
   width: 100%;
   border: 5px solid white;
 }
