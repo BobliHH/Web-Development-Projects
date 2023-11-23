@@ -11,6 +11,10 @@ h2 {
   color: blue;
 }
 
-li.done{
-    color: seagreen
+li.done {
+  color: seagreen;
+}
+
+ul p.done {
+  font-size: 0.5rem;
 }
