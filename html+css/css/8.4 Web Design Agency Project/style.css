@@ -1,3 +1,6 @@
+* {
+  margin: 0;
+}
 body {
   font-family: "Poppins", sans-serif;
   margin: 50px 50px 0 50px;
@@ -12,10 +15,59 @@ body {
 
 h1 {
   font-size: 5rem;
+  text-align: center;
+}
+h2{
+  padding: 10px;
+}
+p{
+  padding: 10px;
 }
 
-footer {
+footer,
+span {
   text-align: right;
   color: midnightblue;
 }
+div > div > img {
+  height: 200px;
+  float: left;
+  margin: 10px;
+}
+/* .card-text,
+.card-title {
+  float: right;
+} */
+.card {
+  display: inline-block;
+  width: 45%;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
 
+@media (max-width: 700px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  .logo {
+    max-width: 30% !important;
+  }
+  .card {
+    width: 90%;
+  }
+  .left {
+    float: none;
+  }
+  .right {
+    float: none;
+  }
+  div > div > img {
+    float: none;
+    width: 100%;
+    object-fit: cover;
+  }
+}
