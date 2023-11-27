@@ -58,6 +58,7 @@ div > div > img {
   }
   .card {
     width: 90%;
+    text-align: justify;
   }
   .left {
     float: none;
